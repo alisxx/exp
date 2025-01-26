@@ -1,0 +1,33 @@
+#navbar {
+    position: relative;
+    overflow: hidden;
+  }
+  
+#navbar a {
+    color: $grey;
+    margin-right: 20px;
+    text-decoration: none;
+    transition: color 0.2s ease;
+    float: left;
+    text-align: center;
+  }
+  
+#navbar a:hover {
+    cursor: pointer;
+    color: $greyhover;
+  }
+
+
+/* Centered section inside the top navigation */
+#navbar-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Right-aligned section inside the top navigation */
+#navbar-right {
+  float: right;
+}
